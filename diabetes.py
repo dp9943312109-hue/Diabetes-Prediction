@@ -26,7 +26,7 @@ input data.append(value)
 if st.button("Predict"):
 prediction = model.predict([input_data])
 result "Diabetic" if prediction [0] 1 else "Non-Diabetic"
-st.success (f"Prediction: (result)"}
+st.success(f"Prediction: {result}")
 #Model performance metrics
 st.supheader("Model Performance")
 y pred model.predict (X_test)
