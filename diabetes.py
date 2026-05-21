@@ -17,7 +17,7 @@ model.fit (X_train, y_train)
 st.title("Diabetes Prediction App")
 st.write("Enter the following details to predict the likelihood of diabetes.")
 #User Inputs for prediction
-input data = []
+input_data = []
 for col in X.columns:
   value st.number_input (f"Enter {col}", min_value=0.0, step=0.1)
   input_data.append(value)
