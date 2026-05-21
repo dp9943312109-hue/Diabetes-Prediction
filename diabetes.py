@@ -11,7 +11,7 @@ y = data['Outcome']
 #Split the data into training and testing sets
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3, random_state=42)
 #Initialize and train the Logistic Regression model
-model = LogisticRegression (max iter=1000)
+model = LogisticRegression (max_iter=1000)
 model.fit (X_train, y_train)
 #Streamlit App Interface
 st.title("Diabetes Prediction App")
