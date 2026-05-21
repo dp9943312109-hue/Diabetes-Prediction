@@ -1,4 +1,5 @@
 streamlit
 scikit-learn
 logisticRegression
-accuracy_score & classification_report
+accuracy_score 
+classification_report
