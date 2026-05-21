@@ -1,5 +1,6 @@
 streamlit
 pandas
+sklearn
 train_test_split
 LogisticRegression
 accuracy_score, classification_report
