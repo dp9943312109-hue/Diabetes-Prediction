@@ -19,7 +19,7 @@ st.write("Enter the following details to predict the likelihood of diabetes.")
 #User Inputs for prediction
 input_data = []
 for col in X.columns:
-  value st.number_input (f"Enter {col}", min_value=0.0, step=0.1)
+  value = st.number_input (f"Enter {col}", min_value=0.0, step=0.1)
   input_data.append(value)
 #Predict button
 if st.button("Predict"):
