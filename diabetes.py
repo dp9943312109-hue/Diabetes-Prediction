@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score, classification_report
 #Load the dataset
 data = pd.read_csv('diabetes.csv')
 #Split data into features (X) and target (y)
-x = data.drop('Outcome', axis-1)
+x = data.drop('Outcome', axis=1)
 y = data['Outcome']
 #Split the data into training and testing sets
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3, random_state=42)
