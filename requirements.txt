@@ -1,3 +1,4 @@
 streamlit
 scikit-learn
-pands
+logisticRegression
+accuracy_score & classification_report
