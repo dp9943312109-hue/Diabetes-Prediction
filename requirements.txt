@@ -1,5 +1,1 @@
 streamlit
-scikit-learn
-logisticRegression
-accuracy_score 
-classification_report
